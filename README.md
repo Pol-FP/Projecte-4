@@ -43,9 +43,25 @@ La demostració final de tot el que has après i del que ets capaç de fer.
 
 ## 📂 **Contingut del projecte**
 
-- **Tasca 1 (T01)**  
-- **Tasca 2 (T02)**  
-- **Tasca 3 (T03)**  
+- [Tasca 1](T01)
+- [Tasca 2](T02)
+- [Tasca 3](T03)
+- [Tasca 4](T04)
+- [Tasca 5](T05)
+- [Tasca 6](T06)
+- [Tasca 7](T07)
+- [Tasca 8](T08)
+- [Tasca 9](T09)
+- [Tasca 10](T10)
+- [Tasca 11](T11)
+- [Tasca 12](T12)
+- [Tasca 13](T13)
+- [Tasca 14](T14)
+- [Tasca 15](T15)
+- [P01](P01)
+- [P02](P02)
+- [P03](P03)
+
 *(Afegeix les tasques que corresponguin en el teu repositori.)*
 
 Cada carpeta conté un **README** propi amb les instruccions detallades i un fitxer `solucio.md` amb el desenvolupament complet.

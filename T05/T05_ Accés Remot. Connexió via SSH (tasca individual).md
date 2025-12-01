@@ -36,7 +36,8 @@
 ![imagen16](img/16.png)
 - Per poder tenir el nostre servidor OpenSSH a Windows 11, anirem a:  
 - **Configuració → Sistema → Característiques opcionals**  
-   Premem el botó blau **"Veure característiques"**.  
+   Premem el botó blau **"Veure característiques"**.
+   A dins del menú haurem de clicar a “Veure les Característiques Disponibles”.  
 - Dins d’aquest apartat cercarem **OpenSSH Server**, marcarem la casella i premem **Afegeix**.  
 ![imagen17](img/17.png) 
 - Per encendre el servei SSH:  

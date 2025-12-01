@@ -37,18 +37,16 @@
 - Per poder tenir el nostre servidor OpenSSH a Windows 11, anirem a:  
 - **Configuració → Sistema → Característiques opcionals**  
    Premem el botó blau **"Veure característiques"**.  
- ![imagen17](img/17.png) 
 - Dins d’aquest apartat cercarem **OpenSSH Server**, marcarem la casella i premem **Afegeix**.  
-![imagen18](img/18.png)
+![imagen17](img/17.png) 
 - Per encendre el servei SSH:  
-![imagen19](img/19.png)
+![imagen18](img/18.png)
 - Per fer que s'activi automàticament a l’inici:  
-![imagen20](img/20.png)
+![imagen19](img/19.png)
 
 - Com podem veure, si fem una connexió SSH ens podrem connectar de Linux a Windows.
+![imagen20](img/20.png)
 ![imagen21](img/21.png)
-![imagen22](img/22.png)
-
 - Si no podem establir la connexió SSH, caldrà deshabilitar temporalment el firewall de Windows.
 
 - A la nostra màquina Windows executarem la següent comanda. **NO TANQUEM AQUESTA CONNEXIÓ SSH.**
@@ -57,16 +55,16 @@
   \`\`\`bash  
   ssh \-D 9876 usuari@192.168.56.102  
   \`\`\`  
-![imagen23](img/23.png)
+![imagen22](img/22.png)
 - Entrarem a **Opcions d’Internet** i seguirem els passos per crear el túnel SSH.  
-![imagen24](img/24.png)
+![imagen23](img/23.png)
 - Anirem a:  
 - **Connexions → Configuració de LAN**  
-![imagen25](img/25.png)
+![imagen24](img/24.png)
 - Deixarem les opcions tal com apareixen a la captura i premem **Opcions avançades**.  
-![imagen26](img/26.png)
+![imagen25](img/25.png)
 - A l’apartat *SOCKS*, posarem la IP de la nostra màquina local (client SSH) i el port **9876**. Finalment, acceptarem tots els canvis.  
-![imagen27](img/27.png)
+![imagen26](img/26.png)
 - Instal·larem l’aplicació [Wireshark](https://www.wireshark.org/) a Windows 11\.
 
 - Podrem apreciar com la informació viatja encriptada.  

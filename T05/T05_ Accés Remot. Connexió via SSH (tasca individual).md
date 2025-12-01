@@ -66,7 +66,6 @@
 - A l’apartat *SOCKS*, posarem la IP de la nostra màquina local (client SSH) i el port **9876**. Finalment, acceptarem tots els canvis.  
 ![imagen26](img/26.png)
 - Instal·larem l’aplicació [Wireshark](https://www.wireshark.org/) a Windows 11\.
-
-- Podrem apreciar com la informació viatja encriptada.  
-![imagen28](img/28.png)
+- Podrem apreciar com la informació viatja encriptada. 
+![imagen27](img/27.png)
 

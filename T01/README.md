@@ -49,7 +49,9 @@ Dissenyar una política de còpies de seguretat completa que garanteixi:
 La solució final inclou 3 documents:
 
 👉 [**FASE 1**](./T01_Fase1.md)
+
 👉 [**FASE 2**](./T01_Fase2.md)
+
 👉 [**Accedir a la guia de gestor de contrasenyes**](./T01_Fase3.md)
 
 ---

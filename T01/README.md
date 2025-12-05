@@ -44,70 +44,13 @@ Dissenyar una política de còpies de seguretat completa que garanteixi:
 
 ---
 
-# 📄 Document Final (Resultat de la Fase 3)
-
-## 1) Dades Objecte de Còpia
-
-### **Servidor (Ubuntu Server)**  
-- **Dades crítiques:**  
-  - Bases de dades de Comptabilitat i Clients (20 GB) — canvi freqüent  
-  - Documents de Projectes: plànols i especificacions (300 GB)  
-- **Dades no crítiques:**  
-  - Carpetes personals dels usuaris (100 GB)
-
-### **Equips clients (10 PCs Windows)**  
-- Còpia només de la carpeta **Documents**, usada per tècnics com espai temporal de fitxers importants.
-
----
-
-## 2) Cronograma Setmanal Detallat
-
-| Dia | Dades | Tipus de còpia | Mitjà |
-|-----|-------|----------------|--------|
-| Dilluns | BD + Documents | Incremental | NAS local |
-| Dimarts | BD | Incremental | NAS local |
-| Dimecres | BD + Documents | Incremental | NAS local |
-| Dijous | BD | Incremental | NAS local |
-| Divendres | BD + Documents | Diferencial | NAS local |
-| Dissabte | Totes les dades del servidor | Completa | Cloud |
-| Diumenge | — | Verificació de còpies | — |
-
----
-
-## 3) Elecció de Mitjans i Ubicació — Regla 3-2-1
-
-- **Mitjà 1 (Local):**  
-  NAS d’alta capacitat a la xarxa interna.  
-  - Avantatges: alta velocitat, recuperació immediata, ideal per complir RTO.
-
-- **Mitjà 2 (Extern):**  
-  Còpia xifrada al núvol (Azure, Google Cloud o AWS).  
-  - Avantatges: ubicació fora de lloc, alta disponibilitat, retenció ampliable.
-
-- **Ubicació Fora de Lloc:**  
-  Emmagatzematge lògic al Cloud.  
-  Responsable: tècnic de TI encarregat de còpies i verificacions setmanals.
-
----
-
-## 4) Estratègia de Recuperació (RTO/RPO)
-
-- **RTO requerit: 4 hores**  
-  - La presència del NAS local permet restaurar ràpidament les BD i documents.
-
-- **RPO requerit: 4 hores (BD)**  
-  - Exportacions automàtiques o rèpliques cada 4 hores cap al repositori intern del NAS.  
-  - En cas de desastre total, restauració des del Cloud amb pèrdua mínima de dades.
-
----
-
 ## 📦 Solució
 
-La solució final inclou:
+La solució final inclou 3 documents:
 
-- Un **esquema complet de còpies 3-2-1** adaptat a la infraestructura de l’empresa.  
-- Un **cronograma setmanal òptim**, balancejat entre cost, rendiment i seguretat.  
-- Una **política formal de còpies** llesta per entregar a direcció.
+👉 [**FASE 1**](./T01_Fase1.md)
+👉 [**FASE 2**](./T01_Fase2.md)
+👉 [**Accedir a la guia de gestor de contrasenyes**](./T01_Fase3.md)
 
 ---
 

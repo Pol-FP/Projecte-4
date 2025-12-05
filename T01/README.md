@@ -52,7 +52,7 @@ La solució final inclou 3 documents:
 
 👉 [**FASE 2**](./T01_Fase2.md)
 
-👉 [**Accedir a la guia de gestor de contrasenyes**](./T01_Fase3.md)
+👉 [**FASE 3**](./T01_Fase3.md)
 
 ---
 

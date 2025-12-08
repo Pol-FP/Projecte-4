@@ -53,9 +53,7 @@
 - A la nostra màquina Windows executarem la següent comanda. **NO TANQUEM AQUESTA CONNEXIÓ SSH.**
 
 - Si afegim l’opció `-D` a la comanda SSH, es crea un proxy SOCKS dinàmic al port que especifiquem.  
-  \`\`\`bash  
-  ssh \-D 9876 usuari@192.168.56.102  
-  \`\`\`  
+ssh \-D 9876 usuari@192.168.56.102  
 ![imagen22](img/22.png)
 - Entrarem a **Opcions d’Internet** i seguirem els passos per crear el túnel SSH.  
 ![imagen23](img/23.png)

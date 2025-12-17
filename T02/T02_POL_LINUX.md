@@ -58,14 +58,14 @@ ls -a /home
 
 ![imagen43](img/image43.png)
 
+Crearem 4 arxius a la carpeta home del nostre usuari principal amb fallocate.
+
 ```bash
 fallocate -l 10MB arxiu1  
 fallocate -l 10MB arxiu2  
 fallocate -l 10MB arxiu3  
 fallocate -l 10MB arxiu4  
 ```
-Crearem 4 arxius a la carpeta home del nostre usuari principal amb fallocate.
-
   
 ![imagen44](img/image44.png)
 

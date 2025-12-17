@@ -2,7 +2,7 @@
 
 #### 
 
-## Configuració i còpies de seguretat a Windows amb Duplicati
+## 1. Configuració i còpies de seguretat a Windows amb Duplicati
 Aqui tenim les especificacions de la maquina Windows 11.
 ![imagen01](img/image1.png)
 Instalarem Duplicati.
@@ -70,7 +70,7 @@ Farem el mateix process per restaurar-la en google drive.
 ![imagen36](img/image36.png)  
 ![imagen37](img/image37.png)  
 
-## Configuració i còpies de seguretat a Linux amb Duplicity
+## 2. Configuració i còpies de seguretat a Linux amb Duplicity
 Maquines Virtuals.
 ![imagen38](img/image38.png)  
 Crearem una nova partició al disc.

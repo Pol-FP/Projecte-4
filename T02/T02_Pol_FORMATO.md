@@ -150,7 +150,7 @@ w (guardar).
 
 Podem comprobar que s’ha creat correctament amb.
 ```bash
-sudo fdisk \-l
+sudo fdisk -l
 ```
 
 ![imagen40](img/image40.png) 

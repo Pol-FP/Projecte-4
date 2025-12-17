@@ -123,14 +123,16 @@ sudo duplicity full /home/user/ file:///media/backup/
 ```
 ![imagen45](img/image45.png)
 Ara esborrarem tots els arxius que vam crear i comprovarem que s’han esborrat amb.
-  rm arxiu\*  
-  ls  
+```bash
+rm arxiu*  
+ls
+```
 ![imagen46](img/image46.png)
 Farem la restauracio amb el backup que em posat a la carpeta de /media/backup i comprovarem que s’hagin restaurat els arxius.
 ```bash
 sudo duplicity restore file:///media/backup/ /home/user/restored/
+ls
 ```
-  ls  
 ![imagen47](img/image47.png)
 Per fer una copia incremental primer afegirem un nou arxiu pero aquesta vegada de 4MB.
 ![imagen48](img/image48.png)
@@ -145,17 +147,18 @@ sudo umount /media/backup
 ```
 Crearem el script [fullbackup.sh](http://fullbackup.sh).
 ```bash
-sudo nano [fullbackup.sh](http://fullbackup.sh)
+sudo nano fullbackup.sh
+
+\!/bin/bash  
+    
+export PASSPHRASE="user"  
+    
+mount /dev/sdb1 /media/backup  
+    
+duplicity full /home/user file:///media/backup/homebackup  
+    
+umount /media/backup  
 ```
-  \!/bin/bash  
-    
-  export PASSPHRASE="user"  
-    
-  mount /dev/sdb1 /media/backup  
-    
-  duplicity full /home/user file:///media/backup/homebackup  
-    
-  umount /media/backup  
     
 Donarem permisos de execucio al script amb.
 ```bash
@@ -170,16 +173,17 @@ sudo crontab \-e
 Creem l’script incrementalbackup.sh per a còpies incrementals.
 ```bash
 sudo nano [fullbackup.sh](http://fullbackup.sh)
-```
-  \#\!/bin/bash  
+
+\#\!/bin/bash  
     
-  export PASSPHRASE="user"  
+export PASSPHRASE="user"  
     
-  mount /dev/sdb1 /media/backup  
+mount /dev/sdb1 /media/backup  
     
-  duplicity full /home/user/ file:///media/backup  
+duplicity full /home/user/ file:///media/backup  
     
-  umount /media/backup  
+umount /media/backup
+```  
 li donem permisos de execució.
 ```bash
 sudo chmod \+x [incrementalbackup.sh](http://incrementalbackup.sh)

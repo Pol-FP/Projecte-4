@@ -4,24 +4,24 @@
 
 ## Configuració i còpies de seguretat a Windows amb Duplicati
 Aqui tenim les especificacions de la maquina Windows 11.
-![imagen01](img/image01.png)
+![imagen01](img/image1.png)
 Instalarem Duplicati.
 Obrirem Duplicati i ens sortirà una finestra al nostre navegador predeterminat, dins la finestra li donarem ara no gràcies.
-![imagen02](img/image02.png)  
+![imagen02](img/image2.png)  
 Li donarem a add en backups.
-![imagen03](img/image03.png)
+![imagen03](img/image3.png)
 Donarem a Add a new Backup.
-![imagen04](img/image04.png)  
+![imagen04](img/image4.png)  
 Aqui farem la configuracio general de la copia de seguretat com el nom del backup la seva descripcio i el seu xifrat i asignarem una contrasenya a la copia.
-![imagen05](img/image05.png)
+![imagen05](img/image5.png)
 En el desti de on vulem que sigui el nostre backup posarem la file system per que volem la copia al nostre propi sistema.
-![imagen06](img/image06.png)
+![imagen06](img/image6.png)
 Seleccionarem on volem que vagi la nostra copia de seguretat i li donarem continue.
-![imagen07](img/image07.png)
+![imagen07](img/image7.png)
 Li donarem a skip test.
-![imagen08](img/image08.png)  
+![imagen08](img/image8.png)  
 Ara podrem seleccionar a que li volem fer el backup una vegada seleccionat a que li volem fer backup donarem continue.
-![imagen09](img/image09.png)  
+![imagen09](img/image9.png)  
 Aqui podrem seleccionar cada quant volem fer la copia de seguretat i desde quant comença a fer les copies, en aquest cas cada hora i començara el 9 a les 20:00.
 ![imagen10](img/image10.png)  
 Aqui podrem seleccionar en quants archius volem que sigui feta la copia de seguretat.

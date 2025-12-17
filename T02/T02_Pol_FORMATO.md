@@ -135,10 +135,15 @@ Crearem una nova partició al disc.
 sudo fdisk /dev/sdb
 ```
 n (nova partició).
+
 p (primària).
+
 ENTER (valors per defecte).
+
 ENTER (valors per defecte).
+
 ENTER (valors per defecte).
+
 w (guardar).
 
 ![imagen39](img/image39.png)

@@ -176,20 +176,20 @@ Instal·larem Duplicity.
 
 Crearem un parell d’usuaris més amb carpeta personal.
 ```bash
-sudo useradd \-m \-s /bin/bash usuari2 && sudo useradd \-m \-s /bin/bash usuari3
+sudo useradd -m -s /bin/bash usuari2 && sudo useradd -m -s /bin/bash usuari3
 ```
 Comprovarem que s’hagin creat correctament les carpetes personals.
 ```bash
-ls \-a /home  
+ls -a /home  
 ```
 
 ![imagen43](img/image43.png)
 
 ```bash
-fallocate \-l 10MB arxiu1  
-fallocate \-l 10MB arxiu2  
-fallocate \-l 10MB arxiu3  
-fallocate \-l 10MB arxiu4  
+fallocate -l 10MB arxiu1  
+fallocate -l 10MB arxiu2  
+fallocate -l 10MB arxiu3  
+fallocate -l 10MB arxiu4  
 ```
 Crearem 4 arxius a la carpeta home del nostre usuari principal amb fallocate.
 
@@ -240,7 +240,7 @@ Crearem el script fullbackup.sh
 ```bash
 sudo nano fullbackup.sh
 
-\!/bin/bash  
+#!/bin/bash  
     
 export PASSPHRASE="user"  
     
@@ -253,20 +253,20 @@ umount /media/backup
     
 Donarem permisos de execucio al script amb.
 ```bash
-sudo chmod \+x [fullbackup.sh](http://fullbackup.sh)
+sudo chmod +x fullbackup.sh
 ```
 Utilitzarem sudo contrab com a root pq es pugui executar correctament l’script i configurarem pq se executi els diumenges a les 23:00.
 ```bash
-sudo crontab \-e
+sudo crontab -e
 ```
 
 ![imagen50](img/image50.png)
 
 Creem l’script incrementalbackup.sh per a còpies incrementals.
 ```bash
-sudo nano [fullbackup.sh](http://fullbackup.sh)
+sudo nano fullbackup.sh
 
-\#\!/bin/bash  
+#\!/bin/bash  
     
 export PASSPHRASE="user"  
     
@@ -278,11 +278,11 @@ umount /media/backup
 ```  
 li donem permisos de execució.
 ```bash
-sudo chmod \+x [incrementalbackup.sh](http://incrementalbackup.sh)
+sudo chmod +x incrementalbackup.sh
 ```
 Utilitzarem sudo contrab com a root pq es pugui executar correctament l’script i configurarem pq se executi de dilluns a dissabte a les 23:00.
 ```bash
-sudo crontab \-e
+sudo crontab -e
 ```
 
 ![imagen51](img/image51.png)

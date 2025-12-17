@@ -1,4 +1,4 @@
-## 2. Configuració i còpies de seguretat a Linux amb Duplicity
+# T02: Còpies de Seguretat amb Duplicity (Linux)
 Maquines Virtuals.
 
 ![imagen38](img/image38.png)  

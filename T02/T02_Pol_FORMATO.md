@@ -164,7 +164,7 @@ sudo mkfs.xfs /dev/sdb1
 
 Crearem la carpeta on muntarem el disc la carpeta a /media/backup.
 ```bash
-sudo mkdir \-p /media/backup
+sudo mkdir -p /media/backup
 ```
 Muntarem el disc a la carpeta amb.
 ```bash

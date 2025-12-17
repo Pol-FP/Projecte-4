@@ -38,6 +38,7 @@ Aqui en comptes de posar file system li donarem a google Drive.
 Una vegada li donem a google drive li donarem a AuthID i fem login amb Google.
 ![imagen18](img/image18.png)  
 ![imagen19](img/image19.png)  
+
 Aceptarem els termes de duplicat.
 ![imagen20](img/image20.png)  
 Posarem la ruta del nostre google drive on volem que vagi el nostre backup.

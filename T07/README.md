@@ -90,9 +90,9 @@ Document extremadament simple, visual i no tècnic, destinat als clients d’Eve
 
 La solució final inclou **dos blocs de documentació**:
 
-👉 **Anàlisi comparativa i eina seleccionada**
+👉 [**Anàlisi comparativa i eina seleccionada**]()
 
-👉 **Guies d’ús oficials**
+👉 [**Guies d’ús oficials**]()
 - Manual per al tècnic (EverPia)
 - Manual per al client (usuari final)
 

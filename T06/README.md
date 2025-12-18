@@ -57,24 +57,8 @@ La documentació se centra en **RDP (Remote Desktop Protocol)**:
 
 ---
 
-## 📦 Resultat esperat
+## 📦 Solució
 
-Un document en format **Markdown (.md)** que contingui:
-
-- Explicacions clares i estructurades.  
-- Passos numerats i fàcilment reproduïbles.  
-- Captures de pantalla (si escau).  
-- Llenguatge orientat a suport tècnic real.  
-
-Aquest document serà utilitzat com a **guia oficial interna d’EverPia** per a tasques de suport remot gràfic.
+👉 [Guia Accés Remot](T06_GUIA)
 
 ---
-
-## 📚 Materials de suport
-
-- Moodle 0227 — Serveis de Xarxa  
-- UD4.AA3 — Escriptoris Remots  
-
----
-
-💡 *Recorda: pensa que a l’altra banda del telèfon hi ha un client nerviós. La claredat i rapidesa amb què et connectes al seu equip marcaran la diferència.*

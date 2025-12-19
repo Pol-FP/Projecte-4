@@ -75,7 +75,7 @@ El client ha especificat que **no disposa d’un sistema d’autenticació centr
 
 Guia amb explicacions
 
-[](T09_Guia.md)
+[](T09.md)
 
 ---
 

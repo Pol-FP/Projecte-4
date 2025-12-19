@@ -73,9 +73,7 @@ El client ha especificat que **no disposa d’un sistema d’autenticació centr
 
 ## 📦 Resultat esperat
 
-Guia amb explicacions
-
-[](T09.md)
+👉 [**Guia amb explicacions**](T09.md)
 
 ---
 

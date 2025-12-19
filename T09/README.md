@@ -73,26 +73,9 @@ El client ha especificat que **no disposa d’un sistema d’autenticació centr
 
 ## 📦 Resultat esperat
 
-Un document en format **Markdown (.md)** que inclogui:
+Guia amb explicacions
 
-- Explicació clara de l’escenari i la solució.
-- Passos detallats de configuració del servidor i del client.
-- Comandes utilitzades i exemples pràctics.
-- Proves d’accés correcte i incorrecte segons permisos.
-- Conclusions sobre l’ús de NFS en aquest context.
-
-Aquest document servirà com a **demostració tècnica per al client** i com a evidència del treball realitzat.
-
----
-
-## 📚 Materials i enllaços de suport
-
-- Material propi: **UD5. AA1. NFS** — Moodle (Sistemes Operatius en Xarxa)
-- Ruiz, P. (2021). *NFS (parte 1): Instalación en un servidor Ubuntu 20.04 LTS* — SomeBooks.es  
-- Ruiz, P. (2021). *NFS (parte 2): Instalación en un cliente Ubuntu 20.04 LTS* — SomeBooks.es  
-- Ubuntu Server Documentation — *Network File System (NFS)*
-- Repositori del projecte:  
-  https://github.com/SMX2n/Projecte04-NFS
+[](T09_Guia.md)
 
 ---
 

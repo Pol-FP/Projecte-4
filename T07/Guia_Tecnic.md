@@ -28,7 +28,7 @@ Ha d'explicar el flux de treball des del punt de vista del consultor. Ha d'inclo
 
 ---
 
-### 2. Instal·lació
+## 2. Instal·lació
 
 1. Executa el fitxer descarregat
 

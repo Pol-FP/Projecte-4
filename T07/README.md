@@ -90,11 +90,11 @@ Document extremadament simple, visual i no tècnic, destinat als clients d’Eve
 
 La solució final inclou **dos blocs de documentació**:
 
-👉 [**Anàlisi comparativa i eina seleccionada**]()
+👉 [**Activitat**](Activitat.md)
 
-👉 [**Guies d’ús oficials**]()
-- Manual per al tècnic (EverPia)
-- Manual per al client (usuari final)
+👉 [**Guia per al tècnic**](Guia_Tecnic)
+
+👉 [**Guia per usuaris**](Guia_Usuari.md)
 
 Aquesta documentació serà utilitzada com a **estàndard intern d’assistència remota** d’EverPia.
 

@@ -92,7 +92,7 @@ La solució final inclou **dos blocs de documentació**:
 
 👉 [**Activitat**](Activitat.md)
 
-👉 [**Guia per al tècnic**](Guia_Tecnic)
+👉 [**Guia per al tècnic**](Guia_Tecnic.md)
 
 👉 [**Guia per usuaris**](Guia_Usuari.md)
 
